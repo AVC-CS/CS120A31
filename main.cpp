@@ -3,15 +3,17 @@
 using namespace std;
 int main()
 {
-  int num1, num2, num3, num4, num5;
-  double total;
-  double average;
+  const double ClassACost = 15.00;
+  const double ClassBCost = 12.00;
+  const double ClassCCost = 9.00;
 
   /* ************************************
     Code your program here
   ************************************ */
 
-  cout << "Total sum: " << total << endl;
   cout << setprecision(2) << fixed;
-  cout << "Average: " << average << endl;
+  cout << "Sales Price for A: " << totalA << endl;
+  cout << "Sales Price for B: " << totalB << endl;
+  cout << "Sales Price for C: " << totalC << endl;
+  cout << "Total Sales: " << total << endl;
 }
